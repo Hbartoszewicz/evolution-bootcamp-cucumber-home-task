@@ -50,7 +50,6 @@ Then("I should see a flash message saying {string}", async (message) => {
 });
 
 When("I press {word}", async (Key) => {
-    // await $('#target').setValue(Key); 
     browser.keys(Key);
     });
 
